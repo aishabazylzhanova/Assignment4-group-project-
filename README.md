@@ -4,13 +4,17 @@ Team: Aisha Bazylzhanova(SE-2004), Arysbay Dastan(SE-2004)
 
 ## Installation 
 
-To install, you need to download webServer.py, database.py and templates from the repository and save them in the same folder. Also you need to install Firefox browser
+To install, you need to download webServer.py, database.py and templates from the repository and save them in the same folder. Also you need to install Firefox browser and install geckodriver. 
 
 ## Usage 
 
 In database.py file you need to provide your data
    ```python
    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://YourUsername:YourPassword@localhost/NameOfYourDatabase'
+   ```
+In webServer.py file you need to provide your data 
+   ```python
+   driver = webdriver.Firefox(executable_path=r'C:\<your>\<path>\<to>\<the>\<geckodriver>\geckodriver.exe')
    ```
 
 When you can run webServer.py
