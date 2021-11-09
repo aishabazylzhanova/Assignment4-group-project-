@@ -4,7 +4,7 @@ Team: Aisha Bazylzhanova(SE-2004), Arysbay Dastan(SE-2004)
 
 ## Installation 
 
-To install, you need to download webServer.py, database.py and templates from the repository and save them in the same folder. 
+To install, you need to download webServer.py, database.py and templates from the repository and save them in the same folder. Also you need to install Firefox browser
 
 ## Usage 
 
